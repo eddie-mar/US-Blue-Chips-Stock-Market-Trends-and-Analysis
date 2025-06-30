@@ -62,14 +62,13 @@ def stock_data_csv(blue_chips, API_KEY):
     return 'us_blue_chips.csv'
 
 
-def repartition_data(stock_csv_file, start, end, repartition):
+def finalize_data(stock_csv_file, start, end, repartition):
     if not repartition:
         df = pd.read_csv(stock_csv_file)
         df['Date'] = pd.to_datetime(df['Date'])
         df = df[(df['Date'].dt.year >= start) & (df['Date'].dt.year <= end)]
         df = df.reset_index()
         df.to_csv('us_blue_chips.csv', index=False, columns=['Date', 'Symbol', 'Open', 'High', 'Low', 'Close', 'Volume'])
-
 
     else:
         # not really necessary to repartition since small file only. I just did so I can practice pyspark
@@ -79,6 +78,7 @@ def repartition_data(stock_csv_file, start, end, repartition):
         df_spark = df_spark.repartition(4)
         df_spark.write.parquet('stocks/data_raw/', mode='overwrite')
         print('Data repartitioned into parquet files. Located at ./stocks/data_raw/')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Extract US Blue Chips Stock data')
@@ -98,10 +98,15 @@ if __name__ == '__main__':
     
     blue_chips = blue_chips_stocks(args.blue_chips_lst)
     
-    csv_file = stock_data_csv(blue_chips, API_KEY)
+    if API_KEY is None:
+        key = args.api_key
+    else:
+        key = API_KEY
+
+    csv_file = stock_data_csv(blue_chips, key)
     print('CSV file containing US Blue Chips stocks generated')
 
-    repartition_data(csv_file, args.start_year, args.end_year, args.repartition)
+    finalize_data(csv_file, args.start_year, args.end_year, args.repartition)
     print('Extraction completed')
     
 
