@@ -1,0 +1,100 @@
+NVDA	NVIDIA Corporation
+NU	Nu Holdings Ltd.
+TSLA	Tesla, Inc.
+INTC	Intel Corporation
+LCID	Lucid Group, Inc.
+AMD	Advanced Micro Devices, Inc.
+F	Ford Motor Company
+CCL	Carnival Corporation & plc
+BTG	B2Gold Corp.
+SOFI	SoFi Technologies, Inc.
+WBD	Warner Bros. Discovery, Inc.
+AAL	American Airlines Group Inc.
+HIMS	Hims & Hers Health, Inc.
+SMCI	Super Micro Computer, Inc.
+PLTR	Palantir Technologies Inc.
+ABEV	Ambev S.A.
+SOUN	SoundHound AI, Inc.
+AAPL	Apple Inc.
+SNAP	Snap Inc.
+RIOT	Riot Platforms, Inc.
+BBD	Banco Bradesco S.A.
+MARA	MARA Holdings, Inc.
+ACHR	Archer Aviation Inc.
+BAC	Bank of America Corporation
+HOOD	Robinhood Markets, Inc.
+RIG	Transocean Ltd.
+CLSK	CleanSpark, Inc.
+NKTR	Nektar Therapeutics
+PBR	Petróleo Brasileiro S.A. - Petrobras
+UBER	Uber Technologies, Inc.
+PFE	Pfizer Inc.
+GOOGL	Alphabet Inc.
+GRAB	Grab Holdings Limited
+VALE	Vale S.A.
+NIO	NIO Inc.
+AVGO	Broadcom Inc.
+APLD	Applied Digital Corporation
+IREN	IREN Limited
+NGD	New Gold Inc.
+AMZN	Amazon.com, Inc.
+QBTS	D-Wave Quantum Inc.
+COIN	Coinbase Global, Inc.
+ITUB	Itaú Unibanco Holding S.A.
+RGTI	Rigetti Computing, Inc.
+RKLB	Rocket Lab Corporation
+NCLH	Norwegian Cruise Line Holdings Ltd.
+OSCR	Oscar Health, Inc.
+HBAN	Huntington Bancshares Incorporated
+XOM	Exxon Mobil Corporation
+GGB	Gerdau S.A.
+CMCSA	Comcast Corporation
+CLF	Cleveland-Cliffs Inc.
+MU	Micron Technology, Inc.
+CHWY	Chewy, Inc.
+GOOG	Alphabet Inc.
+RXRX	Recursion Pharmaceuticals, Inc.
+MRVL	Marvell Technology, Inc.
+AUR	Aurora Innovation, Inc.
+PCG	PG&E Corporation
+KGC	Kinross Gold Corporation
+PSLV	Sprott Physical Silver Trust
+JOBY	Joby Aviation, Inc.
+ZETA	Zeta Global Holdings Corp.
+SMR	NuScale Power Corporation
+AGNC	AGNC Investment Corp.
+AG	First Majestic Silver Corp.
+QUBT	Quantum Computing Inc.
+ASTS	AST SpaceMobile, Inc.
+EQX	Equinox Gold Corp.
+LYFT	Lyft, Inc.
+AMCR	Amcor plc
+T	AT&T Inc.
+MSFT	Microsoft Corporation
+OKLO	Oklo Inc.
+OXY	Occidental Petroleum Corporation
+IONQ	IonQ, Inc.
+DOW	Dow Inc.
+AES	The AES Corporation
+KEY	KeyCorp
+NOK	Nokia Oyj
+CSCO	Cisco Systems, Inc.
+NBIS	Nebius Group N.V.
+CNH	CNH Industrial N.V.
+PONY	Pony AI Inc.
+BB	BlackBerry Limited
+WFC	Wells Fargo & Company
+PR	Permian Resources Corporation
+RIVN	Rivian Automotive, Inc.
+HAL	Halliburton Company
+SLB	Schlumberger Limited
+IAG	IAMGOLD Corporation
+ERIC	Telefonaktiebolaget LM Ericsson (publ)
+ORCL	Oracle Corporation
+C	Citigroup Inc.
+HL	Hecla Mining Company
+ADT	ADT Inc.
+HLN	Haleon plc
+CLVT	Clarivate Plc
+AQN	Algonquin Power & Utilities Corp.
+BABA	Alibaba Group Holding

@@ -1,0 +1,6 @@
+data-extraction/.env
+data-extraction/output/
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+credentials.json
