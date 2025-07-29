@@ -59,17 +59,17 @@ I used Google Cloud SDK gsutil command. Follow [Google Cloud SDK installation gu
 gsutil -m cp -r output/stocks/data_raw/ gs://us_blue_chips_buckets/blue_chips_raw
 ```
 
-After the data is ready in GCS, it is now time to create tables in BigQuery to be used as staging data for dbt modeling.
-In GCP:
-CREATE OR REPLACE EXTERNAL TABLE `capstone-proj-464212.stg_data.external_stock_data`
-OPTIONS (
-    format='PARQUET',
-    uris=['gs://us_blue_chips_buckets/*']
-);
-
-CREATE OR REPLACE TABLE `capstone-proj-464212.stg_data.stg_us_blue_chips`
-CLUSTER BY Symbol
-AS SELECT * FROM `capstone-proj-464212.stg_data.external_stock_data`;
+After the data is ready in GCS, it is now time to create tables in BigQuery to be used as staging data for dbt modeling.<br>
+In GCP:<br>
+CREATE OR REPLACE EXTERNAL TABLE `capstone-proj-464212.stg_data.external_stock_data`<br>
+OPTIONS (<br>
+    format='PARQUET',<br>
+    uris=['gs://us_blue_chips_buckets/*']<br>
+);<br>
+<br>
+CREATE OR REPLACE TABLE `capstone-proj-464212.stg_data.stg_us_blue_chips`<br>
+CLUSTER BY Symbol<br>
+AS SELECT * FROM `capstone-proj-464212.stg_data.external_stock_data`;<br>
 
 
 ### Data Modeling
